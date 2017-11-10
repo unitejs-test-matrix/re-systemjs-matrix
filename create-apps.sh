@@ -2,9 +2,8 @@
 set -e
 
 #
-# React
+# React SystemJS
 #
-
 node unitejs/cli/bin/unite configure --packageName=re-sjs-js-jas-pro --title="React SystemJS JavaScript" --sourceLanguage=JavaScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=Jasmine --unitTestEngine=PhantomJS --e2eTestRunner=Protractor --e2eTestFramework=Jasmine --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=PostCss --appFramework=React --disableVersionCheck --outputDirectory=./apps/re-sjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/re-sjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/re-sjs-js-jas-pro
